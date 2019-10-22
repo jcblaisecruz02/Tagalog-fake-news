@@ -1,4 +1,4 @@
-# Tagalog-fake-news
+# Fake News Detection in Filipino
 
 Repository accompanying our paper **Localization of Fake News Detection via Multitask Transfer Learning.** If you use any data or find our work useful, please cite our work!
 
