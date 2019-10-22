@@ -19,3 +19,5 @@ Repository accompanying our paper **Localization of Fake News Detection via Mult
   year={2019}
 }
 ```
+
+This repository is a work in progress. We will add in specific finetuning code soon. Pretrained models used are available in [this](https://github.com/jcblaisecruz02/Tagalog-BERT) repository (along with basic classification finetuning code).
