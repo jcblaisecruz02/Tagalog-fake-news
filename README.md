@@ -1,6 +1,16 @@
 # Fake News Detection in Filipino
+This repository contains data and models from our paper **Localization of Fake News Detection via Multitask Transfer Learning** (Cruz et al., 2019)
 
-Repository accompanying our paper **Localization of Fake News Detection via Multitask Transfer Learning.** If you use any data or find our work useful, please cite our work!
+# Datasets
+* **Fake News Filipino Dataset** [`download`](https://storage.googleapis.com/blaisecruz/datasets/fakenews/fakenews.zip)\
+*Low-Resource Fake News Detection Corpora in Filipino*\
+The first of its kind. Contains 3,206 expertly-labeled news samples, half of which are real and half of which are fake.
+
+# Pretrained Models
+All pretrained models used in the study are available in [this](https://github.com/jcblaisecruz02/Filipino-Text-Benchmarks) repository.
+
+# Citation
+If you found our work useful, please make sure to cite!
 
 ```
 @article{localization2019cruz,
@@ -19,5 +29,3 @@ Repository accompanying our paper **Localization of Fake News Detection via Mult
   year={2019}
 }
 ```
-
-This repository is a work in progress. We will add in specific finetuning code soon. Pretrained models used are available in [this](https://github.com/jcblaisecruz02/Tagalog-BERT) repository (along with basic classification finetuning code).
