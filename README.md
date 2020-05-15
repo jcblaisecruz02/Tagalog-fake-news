@@ -1,5 +1,5 @@
 # Fake News Detection in Filipino
-This repository contains data and models from our paper **Localization of Fake News Detection via Multitask Transfer Learning** (Cruz et al., 2019)
+This repository contains data and models from our paper **Localization of Fake News Detection via Multitask Transfer Learning** (Cruz et al., 2020), published in the [LREC 2020 Proceedings](http://www.lrec-conf.org/proceedings/lrec2020/index.html).
 
 # Datasets
 * **Fake News Filipino Dataset** [`download`](https://s3.us-east-2.amazonaws.com/blaisecruz.com/datasets/fakenews/fakenews.zip)\
