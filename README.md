@@ -9,6 +9,30 @@ The first of its kind. Contains 3,206 expertly-labeled news samples, half of whi
 # Pretrained Models
 All pretrained models used in the study are available in [this](https://github.com/jcblaisecruz02/Filipino-Text-Benchmarks) repository.
 
+# Getting started
+
+Parse Tagalog fake news dataset into a pandas dataframe object for ease of use.
+
+```python
+from datasets import load_dataset
+import pandas as pd
+
+dataset_dict = load_dataset("jcblaise/fake_news_filipino", trust_remote_code=True)
+
+dataset = dataset_dict['train']
+
+labels = []
+articles = []
+for data in dataset:
+    labels.append(data['label'])
+    articles.append(data['article'])
+
+df = pd.DataFrame({
+    "articles": articles,
+    "labels": labels
+})
+```
+
 # Citation
 If you found our work useful, please make sure to cite!
 
